@@ -1,6 +1,6 @@
 {
   "name": "fallen-for-a-redhead",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get a random ASCII fox",
   "license": "MIT",
   "repository": "peterKaleta/vaca",
@@ -13,7 +13,8 @@
   },
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "foxes.txt"
   ],
   "keywords": [
     "cli-app",
