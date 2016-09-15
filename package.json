@@ -1,14 +1,9 @@
 {
-  "name": "vaca",
+  "name": "fallen-for-a-redhead",
   "version": "1.0.0",
-  "description": "Get a random ASCII cow 🐮",
+  "description": "Get a random ASCII fox",
   "license": "MIT",
-  "repository": "sindresorhus/vaca",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
+  "repository": "peterKaleta/vaca",
   "bin": "cli.js",
   "engines": {
     "node": ">=0.10.0"

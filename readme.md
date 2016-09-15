@@ -1,14 +1,10 @@
-# vaca [![Build Status](https://travis-ci.org/sindresorhus/vaca.svg?branch=master)](https://travis-ci.org/sindresorhus/vaca)
-
-> Get a random ASCII cow 🐮
-
-<img src="screenshot.png" width="668">
+<img src="screenshot.jpg" width="446">
 
 
 ## Install
 
 ```
-$ npm install --global vaca
+$ npm install --global fallen-for-a-redhead
 ```
 
 
@@ -21,12 +17,5 @@ $ npm install --global vaca
     $ vaca
 ```
 
-
-## Related
-
-- [cows](https://github.com/sindresorhus/cows) - ASCII cows 🐮
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+Thanks to
+© [Sindre Sorhus](https://sindresorhus.com)
