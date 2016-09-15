@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/p/.nvm/versions/node/v5.0.0/bin/node',
+1 verbose cli   '/Users/p/.nvm/versions/node/v5.0.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/p/projects/vaca',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/p/.npm/fallen-for-a-redhead/1.0.0/package.tgz not in flight; packing
+9 info lifecycle fallen-for-a-redhead@1.0.0~prepublish: fallen-for-a-redhead@1.0.0
+10 silly lifecycle fallen-for-a-redhead@1.0.0~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/p/.npm/fallen-for-a-redhead/1.0.0/package.tgz',
+11 verbose tar pack   '/Users/p/projects/vaca' ]
+12 verbose tarball /Users/p/.npm/fallen-for-a-redhead/1.0.0/package.tgz
+13 verbose folder /Users/p/projects/vaca
+14 verbose addLocalTarball adding from inside cache /Users/p/.npm/fallen-for-a-redhead/1.0.0/package.tgz
+15 silly cache afterAdd fallen-for-a-redhead@1.0.0
+16 verbose afterAdd /Users/p/.npm/fallen-for-a-redhead/1.0.0/package/package.json not in flight; writing
+17 verbose afterAdd /Users/p/.npm/fallen-for-a-redhead/1.0.0/package/package.json written
+18 silly publish { name: 'fallen-for-a-redhead',
+18 silly publish   version: '1.0.0',
+18 silly publish   description: 'Get a random ASCII fox',
+18 silly publish   license: 'MIT',
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/peterkaleta/vaca.git' },
+18 silly publish   bin: { 'fallen-for-a-redhead': 'cli.js' },
+18 silly publish   engines: { node: '>=0.10.0' },
+18 silly publish   scripts: { test: 'xo && ava' },
+18 silly publish   files: [ 'index.js', 'cli.js' ],
+18 silly publish   keywords:
+18 silly publish    [ 'cli-app',
+18 silly publish      'cli',
+18 silly publish      'cows',
+18 silly publish      'cow',
+18 silly publish      'vaca',
+18 silly publish      'list',
+18 silly publish      'array',
+18 silly publish      'random',
+18 silly publish      'rand' ],
+18 silly publish   dependencies:
+18 silly publish    { cows: '^1.0.0',
+18 silly publish      'indent-string': '^2.1.0',
+18 silly publish      meow: '^3.7.0',
+18 silly publish      'unique-random-array': '^1.0.0' },
+18 silly publish   devDependencies: { ava: '*', xo: '*' },
+18 silly publish   readme: '<img src="screenshot.jpg" width="446">\n\n\n## Install\n\n```\n$ npm install --global fallen-for-a-redhead\n```\n\n\n## Usage\n\n```\n❯ vaca --help\n\n  Usage\n    $ vaca\n```\n\nThanks to\n© [Sindre Sorhus](https://sindresorhus.com)\n',
+18 silly publish   readmeFilename: 'readme.md',
+18 silly publish   gitHead: 'cbd722ed9a3ff0b2a9227e393ef75dd2af61796a',
+18 silly publish   bugs: { url: 'https://github.com/peterkaleta/vaca/issues' },
+18 silly publish   homepage: 'https://github.com/peterkaleta/vaca#readme',
+18 silly publish   _id: 'fallen-for-a-redhead@1.0.0',
+18 silly publish   _shasum: '25b978e30878909249194170e46b0e9cda590c3d',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name fallen-for-a-redhead
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/fallen-for-a-redhead
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /Users/p/.npm/fallen-for-a-redhead/1.0.0/package.tgz
+26 verbose request uri https://registry.npmjs.org/fallen-for-a-redhead
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 1:57:12 PM
+29 verbose request using bearer token for auth
+30 verbose request id fb5df9f1870c15d9
+31 http request PUT https://registry.npmjs.org/fallen-for-a-redhead
+32 http 403 https://registry.npmjs.org/fallen-for-a-redhead
+33 verbose headers { 'content-type': 'application/json',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'content-length': '95',
+33 verbose headers   'accept-ranges': 'bytes',
+33 verbose headers   date: 'Thu, 15 Sep 2016 11:57:12 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-ams4445-AMS',
+33 verbose headers   'x-cache': 'MISS',
+33 verbose headers   'x-cache-hits': '0',
+33 verbose headers   'x-timer': 'S1473940632.155646,VS0,VE835',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 verbose request invalidating /Users/p/.npm/registry.npmjs.org/fallen-for-a-redhead on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: "You cannot publish over the previously published version 1.0.0." : fallen-for-a-redhead
+36 verbose stack     at makeError (/Users/p/.nvm/versions/node/v5.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/Users/p/.nvm/versions/node/v5.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at Request._callback (/Users/p/.nvm/versions/node/v5.0.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+36 verbose stack     at Request.self.callback (/Users/p/.nvm/versions/node/v5.0.0/lib/node_modules/npm/node_modules/request/request.js:198:22)
+36 verbose stack     at emitTwo (events.js:87:13)
+36 verbose stack     at Request.emit (events.js:172:7)
+36 verbose stack     at Request.<anonymous> (/Users/p/.nvm/versions/node/v5.0.0/lib/node_modules/npm/node_modules/request/request.js:1063:14)
+36 verbose stack     at emitOne (events.js:82:20)
+36 verbose stack     at Request.emit (events.js:169:7)
+36 verbose stack     at IncomingMessage.<anonymous> (/Users/p/.nvm/versions/node/v5.0.0/lib/node_modules/npm/node_modules/request/request.js:1009:12)
+37 verbose statusCode 403
+38 verbose pkgid fallen-for-a-redhead
+39 verbose cwd /Users/p/projects/vaca
+40 error Darwin 15.3.0
+41 error argv "/Users/p/.nvm/versions/node/v5.0.0/bin/node" "/Users/p/.nvm/versions/node/v5.0.0/bin/npm" "publish"
+42 error node v5.0.0
+43 error npm  v3.3.6
+44 error code E403
+45 error "You cannot publish over the previously published version 1.0.0." : fallen-for-a-redhead
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
