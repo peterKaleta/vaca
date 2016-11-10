@@ -4,17 +4,17 @@
 ## Install
 
 ```
-$ npm install --global fallen-for-a-redhead
+$ npm install -g fallen-for-a-redhead
 ```
 
 
 ## Usage
 
 ```
-❯ vaca --help
+❯ foxes --help
 
   Usage
-    $ vaca
+    $ foxes
 ```
 
 Thanks to
