@@ -1,12 +1,14 @@
 #!/usr/bin/env node
+
 'use strict';
+
 var meow = require('meow');
 var indentString = require('indent-string');
-var vaca = require('./');
+var foxes = require('./');
 
 meow([
 	'Usage',
-	'  $ vaca'
+	'  $ foxes'
 ]);
 
-console.log('\n\n' + indentString(vaca(), '\t') + '\n');
+console.log('\n\n' + indentString(foxes(), '\t') + '\n');
